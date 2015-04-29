@@ -1,0 +1,35 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By using diff, I was able to pinpoint the areas that were different from the old js file of the game and the new one.
+After seeing all the changes of the new file from the old, I was able to see if there were any typos that might
+have caused the bug. Since "space" was misspelled as "spacr," it showed due to difference between the old and new file.
+That way, it was a lot easier to spot the bug.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+By having easy access to the entire history of a file, this would help to locate
+bugs when dealing with errors where there are huge amounts of code. One can simply
+track each step previously (almost like checkpoints) and see where the error began.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: Manually choosing when to commit provides for greater flexibility; therefore, your
+history will make more sense.
+
+Cons: A person could come across system crashes or any other file-related errors resulting in a loss of files. In that case, an automatic commit would have been more desirable.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because saving multiple files at one commit is a lot more efficient for the programmer. Having to deal with all the small discrepancies are a bit tedious.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+I can use git log in order to see specific checkpoints in history. I can use git diff in order to see the changes in the actual code after every change.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+Version control will allow you to checkpoint back to previous states, so it’s not as worrisome when experience bugs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Everything…
